@@ -12,8 +12,6 @@ This then gives the list of just the names of everything that you can save.
 
 ### Run
 
-  - Clone the repository: `git clone https://github.com/nobodyme/reddit-fetch.git` or download
-  - cd into the directory: `cd reddit-fetch`
   - pip3 install -r requirements.txt
   - Run the script with: `python3 fetch_comments.py -l *your-post-link* -loc *directory path(optional, defaults to current one)*`</br>
   eg: `python3 fetch_comments.py -l https://www.reddit.com/r/AskReddit/comments/75goki/whats_a_movie_to_watch_when_you_want_a_good_cry/`
@@ -27,9 +25,6 @@ A python program to fetch the pictures of a given subreddit, wrote it when I was
 You can find the [article which explains the process to beginners](https://nobodyme.github.io/blog/fetch-images-from-reddit/).
 
 ### Run
-
-  - Clone the repository: `git clone https://github.com/nobodyme/reddit-fetch.git` or download
-  - cd into the directory: `cd reddit-fetch`
   - pip3 install -r requirements.txt
   - Run the script with: `python3 grab_pictures.py -s *name-of-the-subreddits* -n *number-of-photos(optional, defaults to 10)* -t *top posts of [day, week, month, year, all](optional)* -loc *directory-path(optional, defauts to current one)*`</br>
   eg: `python3 grab_pictures.py -s itookapicture CozyPlaces -n 100 -t all`
